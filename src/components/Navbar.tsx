@@ -1,6 +1,20 @@
+'use client'
+
+import {
+  Dropdown,
+  DropdownTrigger,
+  DropdownMenu,
+  DropdownItem,
+  Button,
+  Navbar,
+  NavbarContent,
+  NavbarBrand,
+  NavbarItem,
+} from '@heroui/react'
+
 import Link from 'next/link'
 
-export default function Navbar() {
+export default function NavBar() {
   return (
     <nav className="border-b border-gray-300 bg-gray-200 p-4 text-black">
       <h1 className="text-2xl font-bold">
